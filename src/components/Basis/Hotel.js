@@ -19,7 +19,8 @@ console.log(uniquelist);
 
 const Hotel = () => {
   const [menuData, setMenuData] = useState(Menu);
-  const [menulist, setmenulist] = useState(uniquelist);
+//   const [menulist, setmenulist] = useState(uniquelist);
+  const menulist=uniquelist;
 
   const filterit = (category) => {
     if (category === "All") {
